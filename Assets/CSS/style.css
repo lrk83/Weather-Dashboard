@@ -1,0 +1,136 @@
+.noborder{
+    border: none;
+}
+
+h1 {
+    text-align: center;
+    margin: 15px;
+    background-color: #87CEFA;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.row{
+    width: 100%;
+}
+
+.container{
+    max-width: 100%;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-right: 30px;
+}
+button{
+    width: 100%;
+}
+
+#submitCity{
+    background-color: #87CEFA;
+}
+
+.card-header{
+    padding: 10px;
+}
+
+h3{
+    margin: 0;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.card-body{
+    padding: 10px;
+}
+
+#cityName{
+    margin-bottom: 0;
+}
+
+#past-searches{
+    padding: 0;
+    border-top: 2px solid black;
+}
+
+#past-searches .btn{
+    margin-top: 10px
+}
+
+#currentWeather{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    padding-top: 5px;
+}
+
+#submitCity:hover{
+    color: white;
+    background-color: #039af8;
+}
+
+img{
+    max-width: 50px;
+}
+
+#currentWeatherTitle{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    margin-bottom: .75rem;
+}
+
+span{
+    padding: 3px 6px 3px 6px;
+    border-radius: 5px;
+    color: white;
+}
+
+.good{
+    background-color: green;
+}
+
+.moderate{
+    background-color: yellow;
+    color: black;
+}
+
+.bad{
+    background-color: red;
+}
+
+#forecastRow{
+    margin: 0;
+    justify-content: space-between;
+}
+
+h4{
+    font-size: 1.2rem;
+}
+
+.col-2{
+    padding: 0;
+    flex: 0 0 18%;
+    max-width: 18%;
+}
+
+#forecastCol{
+    padding: 10px;
+}
+
+#forecastSectionHeader{
+    margin: 15px;
+}
+
+.forecastCard{
+    background-color: #87CEFA;
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.forecastCard p{
+    margin-bottom: 5px;
+}
+

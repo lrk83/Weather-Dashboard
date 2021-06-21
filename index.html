@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Assets/CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <Header><h1>Weather Dashboard </h1></Header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card border-dark mb-3">
+                        <div class="card-header"><h3>Search for a city</h3></div>
+                        <div class="card-body">
+                            <form id="city-form">
+                                <div>
+                                <input type="text" name="city-name" placeholder="Enter City Name" />
+                                </div>
+                                <button class="btn" id="submitCity" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-12" id="past-searches">
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="row">
+                        <!--Current weather-->
+                        <div class="card" id="currentWeather">
+                            <div class="card-body">
+                                <div class="row" id="currentWeatherTitle">
+                                    <h3 class="card-title" id="cityName"></h3>
+                                    <div id="icon"></div>
+                                    </div>
+                                <div id="weatherText">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Forecast-->
+                    <div class="row">
+                        <div class="col-12" id="forecastCol">
+                            <div class="row">
+                                <h3 id="forecastSectionHeader"></h3>
+                            </div>
+                            <div class="row" id="forecastRow">
+                                <div class="col-2">
+                                    <div class="card noborder" id="forecastCard0">
+                                        <div class="card-body" id="day0">
+                                            <h4 class="card-title" id="date0"></h4>
+                                            <div id="icon0"></div>
+                                            <div id="weatherText0"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="card noborder" id="forecastCard1">
+                                        <div class="card-body" id="day1">
+                                            <h4 class="card-title" id="date1"></h4>
+                                            <div id="icon1"></div>
+                                            <div id="weatherText1"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="card noborder" id="forecastCard2">
+                                        <div class="card-body" id="day2">
+                                            <h4 class="card-title" id="date2"></h4>
+                                            <div id="icon2"></div>
+                                            <div id="weatherText2"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="card noborder" id="forecastCard3">
+                                        <div class="card-body" id="day3">
+                                            <h4 class="card-title" id="date3"></h4>
+                                            <div id="icon3"></div>
+                                            <div id="weatherText3"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="card noborder" id="forecastCard4">
+                                        <div class="card-body" id="day4">
+                                            <h4 class="card-title" id="date4"></h4>
+                                            <div id="icon4"></div>
+                                            <div id="weatherText4"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="Assets/JS/script.js"></script>
+</body>
+</html>
