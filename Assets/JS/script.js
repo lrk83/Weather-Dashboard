@@ -1,5 +1,5 @@
 //Query selectors for general searches
-var getGeoBaseLink = "http://api.openweathermap.org/geo/1.0/direct?q="
+var getGeoBaseLink = "https://api.openweathermap.org/geo/1.0/direct?q="
 var getWeatherBaseLink = "https://api.openweathermap.org/data/2.5/onecall?lat=";
 var apiKey="f7af6622eaa733e3567ea41a18855d67";
 var units="imperial";
@@ -43,7 +43,7 @@ var displayCurrentWeather=function(data,city){
 
     iconEl.innerHTML="";
     var weatherIcon=document.createElement("img");
-    weatherIcon.setAttribute("src","http://openweathermap.org/img/wn/"+data.current.weather[0].icon+".png");
+    weatherIcon.setAttribute("src","https://openweathermap.org/img/wn/"+data.current.weather[0].icon+".png");
     iconEl.appendChild(weatherIcon);
 
     weatherText.innerHTML="";
@@ -98,7 +98,7 @@ var displayForecasetWeather = function(data){
         var forecastIconEl=document.querySelector("#icon"+x);
         forecastIconEl.innerHTML="";
         var forecastWeatherIcon=document.createElement("img");
-        forecastWeatherIcon.setAttribute("src","http://openweathermap.org/img/wn/"+data.daily[x+1].weather[0].icon+".png");
+        forecastWeatherIcon.setAttribute("src","https://openweathermap.org/img/wn/"+data.daily[x+1].weather[0].icon+".png");
         forecastIconEl.appendChild(forecastWeatherIcon);
     
         var forecastWeatherText = document.querySelector("#weatherText"+x);
