@@ -11,8 +11,6 @@ This webpage displays the weather forecast for different cities. When a user ent
 
 ### Screenshots
 
-![Deployed Application](https://github.com/lrk83/Work-Day-Scheduler/blob/main/assets/Screenshots/Deployed%20Application.png)
+![Deployed Application](https://github.com/lrk83/Weather-Dashboard/blob/main/photos/Screen%20Shot%202021-06-21%20at%2010.38.28%20AM.png)
 
-![Entering New Event](https://github.com/lrk83/Work-Day-Scheduler/blob/main/assets/Screenshots/Editing%20an%20Event.png)
-
-![Saved Events Persisting](https://github.com/lrk83/Work-Day-Scheduler/blob/main/assets/Screenshots/Events%20persisting.png)
+![Deployed Application](https://github.com/lrk83/Weather-Dashboard/blob/main/photos/Screen%20Shot%202021-06-21%20at%2010.38.46%20AM.png)
